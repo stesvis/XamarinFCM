@@ -27,6 +27,14 @@ namespace XamarinFCM.Droid
             //Handle notification when app is closed here
             CrossFirebasePushNotification.Current.OnNotificationReceived += (s, p) =>
             {
+                //Android.Widget.Toast.MakeText(this.ApplicationContext, "Clicked on the notification", Android.Widget.ToastLength.Short).Show();
+                Console.WriteLine($"Received {p.Data}");
+            };
+
+            CrossFirebasePushNotification.Current.OnNotificationOpened += (s, p) =>
+            {
+                Android.Widget.Toast.MakeText(this.ApplicationContext, "Clicked on the notification", Android.Widget.ToastLength.Short).Show();
+                Console.WriteLine($"Clicked the notification");
             };
         }
     }
