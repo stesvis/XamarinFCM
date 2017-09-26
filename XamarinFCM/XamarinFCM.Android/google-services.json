@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "338601223030",
+    "firebase_url": "https://xamarinfcm-99a73.firebaseio.com",
+    "project_id": "xamarinfcm-99a73",
+    "storage_bucket": "xamarinfcm-99a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338601223030:android:92fe8d6069c04873",
+        "android_client_info": {
+          "package_name": "com.levitica.XamarinFCM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338601223030-k8l4qv9v3pnbmu5agl5640mij2viq9a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.levitica.XamarinFCM",
+            "certificate_hash": "7a005c506e5f99562952432a1f19d19922848d24"
+          }
+        },
+        {
+          "client_id": "338601223030-l0hgjq5uvpjf5iap72gdcipj9o6ob4ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-n1ORJgx_Wk70Y7u84yqxyE6PA6SZysw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338601223030-avlo119b4r6lvnkt7gvinkjjov4udabg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.levitica.XamarinFCM"
+              }
+            },
+            {
+              "client_id": "338601223030-l0hgjq5uvpjf5iap72gdcipj9o6ob4ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

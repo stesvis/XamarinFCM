@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFCM"
+             x:Class="XamarinFCM.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Orientation="Vertical" Padding="10, 20, 10, 10">
+        <Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Button Text="Log In" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
